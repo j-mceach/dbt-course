@@ -1,0 +1,12 @@
+{
+    "js/ts.suggest.enabled": true,
+    "terminal.integrated.suggest.enabled": false,
+    "github.copilot.chat.anthropic.useMessagesApi": false,
+    "github.copilot.chat.backgroundAgent.enabled": false,
+    "github.copilot.chat.claudeAgent.enabled": false,
+    "github.copilot.chat.cloudAgent.enabled": false,
+    "github.copilot.chat.codeGeneration.useInstructionFiles": false,
+    "github.copilot.chat.customInstructionsInSystemMessage": false,
+    "chat.extensionUnification.enabled": false,
+    "chat.disableAIFeatures": true
+}
