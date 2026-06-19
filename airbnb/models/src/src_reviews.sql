@@ -1,5 +1,6 @@
-WITH raw_reviews AS ( 
-    SELECT * FROM airbnb.raw.raw_reviews
+-- import reviews
+WITH raw_reviews AS (
+SELECT * FROM  {{source('airbnb', 'reviews')}}
 )
 SELECT 
     listing_id
